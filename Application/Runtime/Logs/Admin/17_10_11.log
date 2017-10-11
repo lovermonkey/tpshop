@@ -1,0 +1,56 @@
+[ 2017-10-11T00:05:17+08:00 ] 127.0.0.1 /index.php/Admin/Manager/index
+ERR: 1052:Column 'role_id' in field list is ambiguous
+ [ SQL语句 ] : SELECT `id`,`username`,`password`,`email`,`nickname`,`last_login_time`,`status`,`update_time`,`create_time`,`role_id` FROM tpshop_manager t1 left join tpshop_role as t2 on t1.role_ia=t2.role_id  
+
+[ 2017-10-11T00:06:01+08:00 ] 127.0.0.1 /index.php/Admin/Manager/index
+ERR: 1054:Unknown column 't1.role_ia' in 'on clause'
+ [ SQL语句 ] : SELECT t1.*,t2.role_name FROM tpshop_manager t1 left join tpshop_role as t2 on t1.role_ia=t2.role_id  
+
+[ 2017-10-11T00:19:27+08:00 ] 127.0.0.1 /index.php/Admin/Manager/Manager/edit
+ERR: 非法操作:Manager
+
+[ 2017-10-11T00:19:31+08:00 ] 127.0.0.1 /index.php/Admin/Manager/Manager/edit
+ERR: 非法操作:Manager
+
+[ 2017-10-11T00:22:59+08:00 ] 127.0.0.1 /index.php/Admin/Manager/Manager/edit
+ERR: 非法操作:Manager
+
+[ 2017-10-11T00:23:36+08:00 ] 127.0.0.1 /index.php/Admin/Manager/Manager/edit
+ERR: 非法操作:Manager
+
+[ 2017-10-11T00:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2017-10-11T00:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/bootstrap-responsive.min.css
+ERR: 非法操作:css
+
+[ 2017-10-11T00:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2017-10-11T00:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/main.css
+ERR: 非法操作:css
+
+[ 2017-10-11T00:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/js/jquery-1.8.1.min.js
+ERR: 非法操作:js
+
+[ 2017-10-11T00:23:43+08:00 ] 127.0.0.1 /index.php/Admin/Manager/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2017-10-11T01:03:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2017-10-11T01:03:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2017-10-11T01:03:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/js/jquery-1.8.1.min.js
+ERR: 非法操作:js
+
+[ 2017-10-11T01:03:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/bootstrap-responsive.min.css
+ERR: 非法操作:css
+
+[ 2017-10-11T01:03:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/css/main.css
+ERR: 非法操作:css
+
+[ 2017-10-11T01:03:48+08:00 ] 127.0.0.1 /index.php/Admin/Manager/js/bootstrap.min.js
+ERR: 非法操作:js
+
